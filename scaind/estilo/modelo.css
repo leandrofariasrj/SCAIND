@@ -1,0 +1,85 @@
+/*  * Projeto SCAIND - Sistema de Cadastro Independente - v2.0
+  * Desenvolvido por Leandro Farias
+  * Email: projectserverone@gmail.com
+  * Perfil profissional: https://www.linkedin.com/in/leandro-farias-rj-19b09796/
+*/
+
+#baseSite {width: 100%; height:100%; position:absolute; left:0%; top:0%;}
+#menuTopo {width: 100%; height:12%; background:linear-gradient(to bottom, #546171, #455565, #455565, #455565, #455565, #02090e); position:absolute; left:0%; top:0%;}
+#baseConteudo {width: 100%; height: 88%; position:absolute; top: 12%; left: 0;}
+#logo {width: 100%; height:10%; position:relative; left:0%;}
+#tituloSistem {width: 20%; text-align: center; font-size: 50px; color: #abc3d2; font-weight: bold; font-family: none; text-shadow: -4px 4px 20px #6eb7da; position: relative; float: left; left: -1%;}
+#subtituloSistem {color: #fff; font-size: 15px; margin-top: -1%;}
+
+#baseLogin{width: 100%; height: 88%; position:absolute; top: 12%; left:0px; padding-top:10%; padding-left: 35%}
+#flogin {width: 30%; padding: 1%; background:linear-gradient(to bottom, #535c65, #b9c7f1, #b9c7f1, #b9c7f1, #314052);  border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; box-shadow: 3px 3px 2px 2px black; position:relative; top: 0%; left: 0%; border: 0px;}
+
+#menuprincipalconteudo1{width: 15%; background: #1F2F43; position:relative; left:0%;}
+
+.creditos {background:#314052; padding: 3%;}
+.sistema {background:#314052; overflow: hidden;}
+#cabecalhos {font-size: 30px; color:#fff; text-align:center; font-weight:bold}
+#textoAjuda {font-size:22px; color:#fff;text-align:left;margin: 4px;}
+#desenvolvedor {font-size: 19px; color:#e7f1c7; text-shadow: 1px 1px 14px #b37400; text-align:right; font-weight:bold}
+#dataAtiva {font-size: 11px; color:#e7f1c7; text-shadow: 1px 1px 14px #b37400; text-align:right; font-weight:bold}
+
+#conteudoframe{width: 98%; height: 100%; border: none; position:relative; float:left; left:0%; top:0%;}
+#resultadosframe{height: 99%;width: 85%;  border: none; position:absolute; float:left; left: 15%;}
+#menuSecundario{width: 13%; height:98%; font-size: 13px; font-weight:bold; color: #e6dace; padding: 1%; margin-right: 1%; background:linear-gradient(to right, #314052, #314052, #314052, #314052, #314052, #314052, #314052, #17283a); position:absolute; float:left; top: 0%; left:0%;}
+#menuconteudoframe{	height: 100%; min-height: 100%; width: 100%; border: 0px;}
+
+.botaoTop {margin: 1%; color: #ffecba; position: relative; left:0;}
+.botaoTop a {text-decoration:none; transition: all 0.5s; font-size: 15px; color: #ecfbbd; font-weight:bold; font-family: sans-serif; padding:3px; border-radius:18px; padding-left: 1%; padding-right: 1%; margin-right:1%; border: 2px solid #cac182; position: relative; float: left; left: 0%;}
+.botaoTop a:hover {color: #ffb649; text-shadow: 1px 2px 16px #ffd392;}
+.botaoTop a:active {color: #ff4A4A;}
+
+.blocoUser {color: #e3e4b1; position: absolute; float: right; right: 2%; top: 1%; padding: 2px; text-align: right; font-size: 17px; font-weight: bold; text-shadow: 0px 0px 20px #c6f2f9;}
+.blocoUser a {text-decoration: none; color: #fff; border: 2px solid #290f0f; border-radius: 18px; font-size: 15px; font-weight: bold; background: #323944; position: relative; float: right; padding-left: 6px; padding-right: 6px; margin-top: 2%;}
+.blocoUser a:hover{background: #1d2042; border: 2px solid #d24343;}
+.blocoUser a:active{background: #000000;}
+
+
+.botaoNovo a {text-decoration:none; width:94%; text-align: center; transition: all 0.5s; font-size: 15px; background: #17202b; color: #e8e0c8; font-weight:bold; font-family: sans-serif; padding:3px; border-radius:6px; border: 1px solid #bccff1; position: relative; float: left; left:2%; margin-top:3%;}
+.botaoNovo a:hover {background: #04080c; color: #ffd24c;}
+.botaoNovo a:active {color: #ff4A4A;}
+
+.botaoOpc a {text-decoration:none; text-align: center; transition: all 0.5s; text-shadow: 1px 2px 20px #6eb0ff; font-size: 15px; color: #00c4ff; font-weight:bold; font-family: sans-serif; position: relative; float: left; padding-bottom: 2px; margin-left: 2%;}
+.botaoOpc a:hover {color: #FFC55A; text-shadow: 1px 2px 20px #FCD791;}
+.botaoOpc a:active {color: #ff4A4A;}
+
+.botaoBusca a {text-decoration:none; transition: all 0.5s; background: #0d1429; font-size:15px; padding: 3px; border: solid 2px #a8abaf; font-family: sans-serif; color:#fff;position:relative; float:left; left:0%; top:0; margin:1%; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;}
+.botaoBusca a:hover {border: solid 2px #fff; background-color: #010308; color:#ffc43f;}
+.botaoBusca a:active {border: solid 2px #010308; background-color: #1a2542; color:#fff;}
+
+.botaoGravar a {text-decoration:none; transition: all 0.5s; background: #051223; font-weight:600; font-size:16px; padding: 4px; border: solid 2px #a8abaf; font-family: sans-serif; color:#fff;position:relative; float:right; left:0%; top:0; margin-top:1%; margin-right:3%; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;}
+.botaoGravar a:hover {border: solid 2px #fff; background-color: #010308; color:#ffc43f;}
+.botaoGravar a:active {font-size:16px; border: solid 1px #ffffff; background-color: #1a2542; color:#fff;}
+
+.boxInputForm {width: 95%; border: solid 1px #000; position: relative; float: left; margin-top: 1%; margin-bottom: 1%; border-radius: 8px; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
+.boxTextForm {width:35%; border: solid 2px black; position: relative; float: left; margin: 1%; padding: 1%; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
+.boxRadioForm {width:98%; position: relative; font-size:12px; float: left; margin: 1%; padding: 1%;}
+
+.formRegistros {width:100%; position: relative; font-size: 16px; float:left;}
+.formRegistrosNome {width:24%; color: #fff; font-family: sans-serif; margin-right: 0.3%; position: relative; float:left;}
+.formRegistrosSituacao{color: #fff;font-family: sans-serif; text-align: center; margin-right: 0.3%; position: relative; float:left;}
+.formRegistrosEmail {width:25%; color: #fff; margin-right:2px; position: relative; float:left;}
+.formRegistrosG {width:29%; color: #fff;font-family: sans-serif; margin-right:2px; position: relative; float:left;}
+.formRegistrosP {width:13%; color: #fff;font-family: sans-serif; margin-right:2px; position: relative; float:left;}
+.fieldBusca {width:83%; border: solid 3px #b7b68e; border-radius:8px; position: relative; float: left;}
+.fieldExibicao {border: solid 3px #b7b68e; border-radius:8px; padding-left: 3%; padding-right: 2%}
+.legendaExibicao {color: #e0c460;  font-weight:bold ; font-family: sans-serif;}
+.labelAtivo {color: #02A741; font-weight:bold;}
+.labelInativo {color: #CA1B0A; font-weight:bold;}
+
+.formHistoricoP {width: 16%; color: #fff; position: relative; float: left; margin-left: 1%;}
+.formHistoricoG {width: 48%; color: #fff; position: relative; float: left; margin-left: 1%;}
+
+.fieldNovoBase {width: 70%; text-align: center; background: #2c3f56; font-size: 17px; font-family: sans-serif; color: #fff; border: solid 3px #d4c4af; padding-left: 2%; padding-right: 2%; padding-top: 6px; position: absolute; float: left; left: 14%; border-radius: 20px;}
+.fieldNovo {width: 90%; text-align: left; font-size: 13px; font-family: sans-serif; color: #fff; border: solid 2px #d4c4af; margin: 2px; position: relative; float: left; left: 3%; border-radius: 10px;}
+.boxFormNovo{ width: 99%; border-radius: 9px; color: #150303; font-weight: 600; font-size: 15px; padding-left: 1%;}
+
+.fieldDetalheBase {width: 50%; text-align: center; background: #2c3f56; font-size: 17px; font-family: sans-serif; color: #fff; border: solid 3px #d4c4af; padding-left: 2%; padding-right: 2%; padding-top: 6px; position: absolute; float: left; left: 24%; border-radius: 20px;}
+.fieldDetalhe {width: 90%; height: 33px; text-align: left; font-size: 13px; font-family: sans-serif; color: #fff; border: solid 2px #d4c4af; margin: 2px; position: relative; float: left; left: 3%; border-radius: 10px;}
+.fieldDetalheObs {width: 90%; height: 60px; text-align: left; font-size: 13px; font-family: sans-serif; color: #ffedd2; border: solid 2px #d4c4af; margin: 2px; position: relative; float: left; left: 3%; border-radius: 10px;}
+.textoDetalhes{font-size: 18px; color: #ffedd2;}
+.cBox {text-decoration:none; width:40%; text-align: left; font-size: 20px; color: #ffd8ba; position: relative; float:left; margin-left:5%;}
