@@ -1,15 +1,17 @@
 # SCAIND
 
-SCAIND ou Sistema de Cadastro Independente, é uma ferramenta para cadastro interno de funcionários. Inicialmente desenvolvida para atender o núcleo de TI, com função de organizar dados de acessos a perfil de usuários de domínio, email e/ou observações gerais. A versão atual ganhou atenção em itens de segurança, como: registro de atividades opcionais dos registros e controle de sessão ativa. 
-O projeto SCAIND nasceu da necessidade converter um projeto criado em MS ACCESS, que tinha como função guardar informações de funcionários, para o uso de sistemas em empresa, abrigando dados sensíveis vinculados aos dados de logins de sistemas e emails. A conversão desse sistema tinha como objetivo principal, realizar o reaproveitamento dos dados já existentes, reorganizar a apresentação dos dados e inserir segurança no compartilhamento das informações pela rede local. A documentação de implantação do projeto SCAIND, tem como intuito orientar quanto aos requisitos básicos e os primeiros passos para utilização do sistema. Plataforma utilizada na implantação:
+SCAIND ou Sistema de Cadastro Independente, é uma ferramenta para cadastro interno de funcionários que utiliza tecnologia web com html, css, php e Banco de dados. Inicialmente desenvolvida para atender o núcleo de TI, com função de organizar dados de acessos a perfil de usuários de domínio, email e/ou dados de natureza sensíveis. A versão atual ganhou atenção em itens de segurança, como: registro de atividades opcionais dos registros e controle de sessão ativa. 
+O projeto SCAIND nasceu da necessidade converter um projeto criado em MS ACCESS, que tinha como função guardar informações de funcionários, para o uso de sistemas em empresa, abrigando dados sensíveis vinculados aos dados de logins de sistemas e emails. A conversão desse sistema tinha como objetivo principal, realizar o reaproveitamento dos dados já existentes, reorganizar a apresentação dos dados e inserir segurança no compartilhamento das informações pela rede local. A documentação de implantação do projeto SCAIND que virá a seguir, tem como intuito orientar quanto aos requisitos básicos e os primeiros passos para utilização do sistema em um ambiente interno e controlado. Plataforma utilizada na implantação:
 
 ● Servidor
+
   ○ Sistema operacional Debian 9x
   ○ Banco de dados MariaDB versão 10.1.44
   ○ PHP versão 7.0.33
   ○ Apache versão 2.4.25
   
 ● Cliente
+
   ○ Sistema operacional com suporte aos navegadores
     ■ Google Chrome (V. 86.0.4240.75)
     ■ Internet Explorer (V. 11.0.9600.19596)
