@@ -6,19 +6,29 @@ O projeto SCAIND nasceu da necessidade converter um projeto criado em MS ACCESS,
 ● Servidor
 
   ○ Sistema operacional Debian 9x
-  ○ Banco de dados MariaDB versão 10.1.44
-  ○ PHP versão 7.0.33
-  ○ Apache versão 2.4.25
   
+  ○ Banco de dados MariaDB versão 10.1.44
+  
+  ○ PHP versão 7.0.33
+  
+  ○ Apache versão 2.4.25
+    
 ● Cliente
 
   ○ Sistema operacional com suporte aos navegadores
+  
     ■ Google Chrome (V. 86.0.4240.75)
+    
     ■ Internet Explorer (V. 11.0.9600.19596)
+    
     ■ Firefox Browser (V. 82.0.2)
+    
   ○ Resolução
+  
     ■ Mínima de 1280 x 720
+    
     ■ Ideal 1366 x 768 ou superior
+    
     
   Etapas a serem seguidas na implantação da ferramenta de cadastro SCAIND:
 
